@@ -6,4 +6,22 @@ propTypes = a mechanism that ensures that the passed value is of the correct dat
 
 defaultProps = default values for props in case they are not passed from the parent component name: "Guest"
 
-conditional rendering = allows you to control what gets rendered in your application based on certain conditions (show, hide, or change components)
+Conditional rendering = allows you to control what gets rendered in your application based on certain conditions (show, hide, or change components)
+
+Always remember to put default value to component.
+
+click event = An interaction when a user clicks pn a specific element. We can respond to clicks by passing a callback to the onClick event handler.
+
+Windows key + . = keyboard 
+
+React hook = Special function that allows functional components to use React features without writing class components (useState, useEffect, useContext, useReducer, useCallback and more)
+
+useState() = A React hook that allows the creation of a stateful variable AND a setter function to update its value in the Virtual DOM. [name, setName].
+
+onChange = event handler used primarily with form elements ex. <input>, <textarea>, <select>, <radio> Triggers a function every time the value of the input changes
+
+updater function = A function passed as an argument to setState() usually ex. setYear(updater function) Allow for safe updates based on the previous state. Used with multiple state updates and asynchronous functions. Good practice to use updater functions
+
+update OBJECTS in state 
+
+update ARRAY of OBJECTS in state
