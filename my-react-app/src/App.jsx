@@ -15,6 +15,8 @@ import MyComponent2 from "./MyComponent2.jsx"; // 9. onChange event handler
 import ColorPicker from "./ColorPicker.jsx"; // 10. Color Picker
 import MyComponent3 from "./MyComponent3.jsx"; // 12. update OBJECTS in state
 import UpdateArray from "./UpdateArray.jsx"; // 13. update arrays in state
+import ArrayOfObject from "./ArrayOfObject.jsx";  // 14. update ARRAY of OBJECTS in state
+import ToDoList from "./ToDoList.jsx"; // 15. ToDoList app
 
 function App() {
 
@@ -53,6 +55,8 @@ function App() {
       <MyComponent2/>
       <MyComponent3/>
       <UpdateArray/>
+      <ArrayOfObject/>
+      <ToDoList/>
       <Button/>
       <Button2/>
       <Food/>

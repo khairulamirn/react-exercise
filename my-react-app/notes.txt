@@ -25,3 +25,7 @@ updater function = A function passed as an argument to setState() usually ex. se
 update OBJECTS in state 
 
 update ARRAY of OBJECTS in state
+
+ToDoList app
+
+useEffect() react hook
