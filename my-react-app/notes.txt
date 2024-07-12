@@ -28,4 +28,8 @@ update ARRAY of OBJECTS in state
 
 ToDoList app
 
-useEffect() react hook
+useEffect() react hook = that tells React DO SOME CODE WHEN (pick one):
+This component re-renders
+This component mounts
+The state of a value
+

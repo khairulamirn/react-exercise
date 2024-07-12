@@ -17,6 +17,7 @@ import MyComponent3 from "./MyComponent3.jsx"; // 12. update OBJECTS in state
 import UpdateArray from "./UpdateArray.jsx"; // 13. update arrays in state
 import ArrayOfObject from "./ArrayOfObject.jsx";  // 14. update ARRAY of OBJECTS in state
 import ToDoList from "./ToDoList.jsx"; // 15. ToDoList app
+import UseEffect from "./UseEffect.jsx";
 
 function App() {
 
@@ -57,6 +58,7 @@ function App() {
       <UpdateArray/>
       <ArrayOfObject/>
       <ToDoList/>
+      <UseEffect/>
       <Button/>
       <Button2/>
       <Food/>
