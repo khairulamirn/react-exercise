@@ -17,7 +17,10 @@ import MyComponent3 from "./MyComponent3.jsx"; // 12. update OBJECTS in state
 import UpdateArray from "./UpdateArray.jsx"; // 13. update arrays in state
 import ArrayOfObject from "./ArrayOfObject.jsx";  // 14. update ARRAY of OBJECTS in state
 import ToDoList from "./ToDoList.jsx"; // 15. ToDoList app
-import UseEffect from "./UseEffect.jsx";
+import UseEffect from "./UseEffect.jsx"; // 16. useEffect
+import UseEffect2 from "./UseEffect2.jsx";
+import DigitalClock from "./DigitalClock.jsx"; // 17. digital clock app
+
 
 function App() {
 
@@ -61,6 +64,8 @@ function App() {
       <UseEffect/>
       <Button/>
       <Button2/>
+      <UseEffect2/>
+      <DigitalClock/>
       <Food/>
       <ColorPicker/>
       <Footer/>

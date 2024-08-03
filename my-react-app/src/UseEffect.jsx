@@ -20,6 +20,10 @@ function UseEffect() {
 
     useEffect(() => {
         document.title = `Count: ${count} ${color}`
+
+        // SOME CLEANUP CODE 
+        // retrun () => {}
+            
     }, [count, color]); // when count updates perform the callback function title will be updated
 
     function addCount() {
