@@ -271,7 +271,63 @@ input[type="color"] {
   border-radius: 10px;
 }
 
+.box {
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+}
 
+.stopwatch {
+  margin: 5rem;
+  padding: 100px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #62d659;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.controls {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.controls > button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.start-button {
+  background-color: aqua;
+}
+
+.start-button:hover {
+  background-color: rgb(61, 141, 141);
+}
+
+.stop-button {
+  background-color: red;
+}
+
+.stop-button:hover {
+  background-color: rgb(155, 62, 62);
+}
+
+.reset-button {
+  background-color: yellow;
+}
+
+.reset-button:hover {
+  background-color: rgb(155, 155, 62);
+}
 
 
 

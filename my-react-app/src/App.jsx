@@ -20,6 +20,9 @@ import ToDoList from "./ToDoList.jsx"; // 15. ToDoList app
 import UseEffect from "./UseEffect.jsx"; // 16. useEffect
 import UseEffect2 from "./UseEffect2.jsx";
 import DigitalClock from "./DigitalClock.jsx"; // 17. digital clock app
+import ComponentA from "./ComponentA18.jsx"; // 18. useContext() prop drilling
+import UseRef from "./useRef.jsx"; // 19. useRef
+import Stopwatch from "./Stopwatch.jsx"; // 20. stopwatch app
 
 
 function App() {
@@ -66,6 +69,10 @@ function App() {
       <Button2/>
       <UseEffect2/>
       <DigitalClock/>
+      <DigitalClock/>
+      <Stopwatch/>
+      <ComponentA/>
+      <UseRef/>
       <Food/>
       <ColorPicker/>
       <Footer/>
